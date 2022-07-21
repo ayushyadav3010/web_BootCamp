@@ -248,6 +248,10 @@ padding-bottom: 1rem;
     color: var(--black);
 
 }
-
+// Js
+let srcForm = document.querySelector('.search-form');
+document.querySelector('#searchbtn').onclick = () =>{
+srcForm.classList.toggle('active');
+}
 
 
